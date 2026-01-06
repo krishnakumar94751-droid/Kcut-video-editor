@@ -5,7 +5,7 @@ workflows:
     environment:
       flutter: stable
       android_signing:
-        - keystore_reference
+        QTrG-GSYYkO9clGPk41vqvZihKCsG51g6hqUYYZUcGU keystore_reference
     scripts:
       - name: Get Flutter packages
         script: flutter pub get
